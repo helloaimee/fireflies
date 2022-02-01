@@ -1,0 +1,35 @@
+body {
+  background-image: url("./forest.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #0b0c1a;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.ball {
+  z-index: 5;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: yellow;
+  transition: opacity 3s ease;
+}
+
+.jar {
+  position: relative;
+  /* border: 10px solid white; */
+  margin: auto;
+
+  width: 400px;
+  height: 600px;
+  background-image: url(jarshell.png);
+  background-size: cover;
+}
